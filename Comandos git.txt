@@ -1,0 +1,111 @@
+git init -> Inicializa o git 
+git add + nome do arquivo -> Inclui na fila de espera do próximo commit 
+git add . -> Inclui na fila de espera do próximo commit todos os arquivos que não foram commitados
+git commit -m "Comentário do que fez" -> Adiciona um comentário do que foi feito 
+git branch -M "main" -> Main está em trasição 
+git remote add origin 
+https://github.com/ElianeOliveiradeJesus/teste.git
+-> Conexão entre o reposítorio local entre o remoto 
+git push -u origin main- Estou empurrando os commits para o repositório remoto . 
+git push origin main ->  Vai ser para o repositório que está localizado como ORIGIN
+git push - u origem principal->
+
+* Colar - INSERT ou Copia e com o dedo direito seleciono a opção Paste e pronto !
+
+Branch 
+O que é ? 
+É uma ramificação do projeto . 
+Comando : 
+git checkout -b "adicionando nova feature"
+Cria um nova subpasta na master 
+
+
+Como add um repositório remoto 
+
+Master 
+
+Como ver as alterações feita no repositório hospedado no servidor git? 
+Dentro da pasta do projeto digite o comando : 
+git pull origin 
+O comando lista todas as alterações feita. 
+
+Como clonar um repositório para sua máquina local ? 
+
+1- Copia o link do endereço do repositório
+Ex: 
+https://github.com/ElianeOliveiradeJesus/teste.git
+
+
+
+.git pasta oculta , onde tem as configurações do git
+
+
+-------------------------------------------------
+O que é ramificação (Branch) ? 
+  Pontos na história do seu projeto.
+
+Master é a parte principal do projeto. Sendo a parte inicial e finalizada do projeto!
+Quando é necessário fazer alterações porém não vai interferir na pasta principal do projeto é criado a branch. 
+
+Branch 1 - Desenvolve a funcionalidade login 
+Branch 2 - Desenvolve a funcionalidade cadastro 
+Branch 3- Desenvolve o formulário 
+
+Após as funcionaliades estarem  prontas para unificar o que já foi feito com o projeto na master . Qual o comando devemos usar no git ? 
+
+git merge 
+
+
+Commint: É uma postagem das alterações feitas no projeto . 
+
+Comando : 
+git commit -m "Descrição do que foi realizado"
+
+Merge: É junção da branch que você desenvolveu com a  funcionalidade onde é necessário unificar com a master. 
+
+Comando : 
+git merge 
+
+Obs: Se não foi alterado a mesma linha do código , não haverá problemas . 
+
+
+Remote : Ele faz com que o repositório que está na minha máquina poderá ser atualizado no servidor . 
+
+Comando : 
+git remote 
+
+Push :  Ele adiciona o commit que você realizou na máquina para o servidor 
+
+git push 
+
+Pull: Ele puxa o que está no servidor para sua máquina local . 
+
+git pull
+
+
+
+Principais comandos do git  
+git init  : Inicializa o git 
+git add nome do arquivo : Cria uma fila de espera para ser postados 
+
+git add . : Cria uma fila de espera de todos os arquivos para ser postados 
+
+git status: Mostra as mudanças para ser postadas 
+
+git commit -m "Descrição do que foi realizado" : Ele faz um comentário do que você alterou no projeto. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
