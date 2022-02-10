@@ -42,16 +42,18 @@ https://github.com/ElianeOliveiradeJesus/teste.git
 
 -------------------------------------------------
 O que é ramificação (Branch) ? 
-  Pontos na história do seu projeto.
+  *Pontos na história do seu projeto.
 
-Master é a parte principal do projeto. Sendo a parte inicial e finalizada do projeto!
+Master é a parte principal do projeto. Sendo a parte mais importante do projeto!
 Quando é necessário fazer alterações porém não vai interferir na pasta principal do projeto é criado a branch. 
+Ex: Branch é uma subpasta da pasta. 
 
+Ex: 
 Branch 1 - Desenvolve a funcionalidade login 
 Branch 2 - Desenvolve a funcionalidade cadastro 
 Branch 3- Desenvolve o formulário 
 
-Após as funcionaliades estarem  prontas para unificar o que já foi feito com o projeto na master . Qual o comando devemos usar no git ? 
+Após as funcionaliades estarem  prontas para unificar o que já foi feito com o projeto na master(pasta principal) . Qual o comando devemos usar no git ? 
 
 git merge 
 
@@ -85,14 +87,42 @@ git pull
 
 
 Principais comandos do git  
+git --version : Checa qual é a versão do git. 
 git init  : Inicializa o git 
 git add nome do arquivo : Cria uma fila de espera para ser postados 
-
 git add . : Cria uma fila de espera de todos os arquivos para ser postados 
-
 git status: Mostra as mudanças para ser postadas 
-
 git commit -m "Descrição do que foi realizado" : Ele faz um comentário do que você alterou no projeto. 
+git branch -M "main" : Renomeia a branch 
+
+
+
+
+https://docs.google.com/document/d/18tgbGEskTz-Cq9X-zp0slEo18cXEoESU5jSFZPiTqFI/edit?usp=sharing
+
+
+Gustavo Manarin11:25
+https://docs.google.com/document/d/1y0WRXosDqAtvdCKJRDC7WRKRlVYHpEpSYC4-r_Hxl64/edit?usp=sharing
+
+4004 -> 
+
+
+git remote  add origin https://github.com/ElianeOliveiradeJesus/Aprendendo_Git.git 
+O comando acima 
+
+
+
+Preciso incluir um novo projeto na branch master (pasta principal) do projeto. Qual o comando usar? 
+
+git push -U origin master : Envia os arquivos para o repositório do servidor. 
+
+git checkout -b "nova subpasta"
+O comando acima cria uma nova subpasta dentro do branch (pasta principal) 
+
+
+
+
+
 
 
 
